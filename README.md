@@ -7,7 +7,7 @@ Static mentorship landing page for https://mentor.rudik.dev.
 
 Language: the switch in the header saves `localStorage.lang` and a `lang` cookie on `.rudik.dev`, so the choice carries over to https://qa.rudik.dev.
 
-Plain HTML, CSS and a small JavaScript enhancement. No build step. The native form submits to FormSubmit, which forwards requests to `rudikqa@gmail.com`; direct email and LinkedIn links remain available. The recipient must activate the first FormSubmit request by email before delivery begins.
+Plain HTML, CSS and a small JavaScript enhancement. No build step. The native form submits to FormSubmit, which forwards requests to `rudikqa@gmail.com`; direct email and LinkedIn links remain available. The FormSubmit endpoint was activated by the recipient on 2026-10-07. The service may show a spam challenge on submission.
 
 Local preview: `python3 -m http.server 4175`.
 
